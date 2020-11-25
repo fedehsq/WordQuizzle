@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5f05f1c-a9cc-4206-9b1a-a97d150245ab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1URQmmlK8Dot7tfVmRGkQ2f6khQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="270" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\feffe\Desktop\Progetto4.0\src\gui" />
+      <recent name="C:\Users\feffe\Desktop\Progetto2.0\src" />
+      <recent name="C:\Users\feffe\Downloads\Progetto2.0\Progetto2.0\src" />
+      <recent name="C:\Users\feffe\OneDrive\Reti\java\Progetto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\feffe\Dropbox\Progetto4.0\src\gui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientGUI">
+    <configuration name="AutoClient" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="cli.AutoClient" />
+      <module name="Progetto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientGUI" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="gui.LoginGUI" />
+      <module name="Progetto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManualClient" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="cli.ManualClient" />
+      <module name="Progetto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="Progetto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.RegisterImplementation" />
+      <module name="Progetto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AUTO" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Server" type="Application" />
+      <runConfiguration name="AutoClient" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUI" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Server" type="Application" />
+      <runConfiguration name="ClientGUI" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TWO" type="Multirun" factoryName="Multirun" separateTabs="true" startOneByOne="true" markFailedProcess="true" hideSuccessProcess="false" delayTime="0">
+      <runConfiguration name="Server" type="Application" />
+      <runConfiguration name="ManualClient" type="Application" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AutoClient" />
+      <item itemvalue="Application.ClientGUI" />
+      <item itemvalue="Application.ManualClient" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Multirun.AUTO" />
+      <item itemvalue="Multirun.GUI" />
+      <item itemvalue="Multirun.TWO" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5f05f1c-a9cc-4206-9b1a-a97d150245ab" name="Default Changelist" comment="" />
+      <created>1575317088232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575317088232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="677" y="191" key="#GUI" timestamp="1579113791681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="191" key="#GUI/0.0.1920.1040@0.0.1920.1040" timestamp="1579113791681" />
+    <state x="740" y="186" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form" timestamp="1579118951999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="186" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/0.0.1920.1040@0.0.1920.1040" timestamp="1579118951999" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580216270500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="282" y="51" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.735@0.0.1366.735" timestamp="1579330255934" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580216270500" />
+    <state x="720" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578061180672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578061180671" />
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580404931153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="357" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580404931153" />
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578774828547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578774828547" />
+    <state x="765" y="230" width="380" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1580390801547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="143" width="380" height="589" key="#com.intellij.ide.util.MemberChooser/0.0.1366.735@0.0.1366.735" timestamp="1579339655351" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580390801547" />
+    <state x="690" y="302" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579616779015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="302" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579616779015" />
+    <state x="689" y="303" width="531" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580216269252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="214" width="531" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.735@0.0.1366.735" timestamp="1579330253101" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580216269252" />
+    <state x="689" y="311" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1579790339099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="311" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579790339099" />
+    <state x="575" y="288" width="299" height="213" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578129404239">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="575" y="288" width="299" height="213" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.735@0.0.1366.735" timestamp="1578129404239" />
+    <state x="700" y="419" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1664.1069@0.0.1664.1069" timestamp="1577237364628" />
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577448988181" />
+    <state x="308" y="51" width="830" height="681" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578129397841">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="308" y="51" width="830" height="681" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1366.735@0.0.1366.735" timestamp="1578129397841" />
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576790618404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576790618404" />
+    <state x="756" y="406" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579941456585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="406" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1579941456585" />
+    <state x="44" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580287945237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="44" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580287945237" />
+    <state x="694" y="281" key="EnvironmentVariablesDialog" timestamp="1578774818917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="281" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578774818917" />
+    <state x="740" y="274" width="430" height="481" key="FileChooserDialogImpl" timestamp="1578776640037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="526" y="194" width="430" height="481" key="FileChooserDialogImpl/0.0.1366.735@0.0.1366.735" timestamp="1578743060108" />
+    <state x="641" y="282" key="FileChooserDialogImpl/0.0.1664.1069@0.0.1664.1069" timestamp="1577267371110" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578776640037" />
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1580404848594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1578144250767">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1366.735@0.0.1366.735" timestamp="1578144250767" />
+    <state width="1324" height="446" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1580200622655" />
+    <state width="1621" height="292" key="GridCell.Tab.0.bottom/0.0.1664.1069@0.0.1664.1069" timestamp="1577237630363" />
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580404848594" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1580404848593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1578144250766">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.center.inPresentationMode/0.0.1366.735@0.0.1366.735" timestamp="1578144250766" />
+    <state width="1324" height="446" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1580200622654" />
+    <state width="1621" height="292" key="GridCell.Tab.0.center/0.0.1664.1069@0.0.1664.1069" timestamp="1577237630363" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580404848593" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1580404848593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1578144250766">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.left.inPresentationMode/0.0.1366.735@0.0.1366.735" timestamp="1578144250766" />
+    <state width="1324" height="446" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1580200622653" />
+    <state width="1621" height="292" key="GridCell.Tab.0.left/0.0.1664.1069@0.0.1664.1069" timestamp="1577237630363" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580404848593" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1580404848594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1578144250767">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state width="1324" height="171" key="GridCell.Tab.0.right.inPresentationMode/0.0.1366.735@0.0.1366.735" timestamp="1578144250767" />
+    <state width="1324" height="446" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1580200622655" />
+    <state width="1621" height="292" key="GridCell.Tab.0.right/0.0.1664.1069@0.0.1664.1069" timestamp="1577237630363" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580404848594" />
+    <state width="1877" height="555" key="GridCell.Tab.1.bottom" timestamp="1580128005365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="220" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" timestamp="1579330271480" />
+    <state width="1877" height="555" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580128005365" />
+    <state width="1877" height="555" key="GridCell.Tab.1.center" timestamp="1580128005365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="220" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" timestamp="1579330271480" />
+    <state width="1877" height="555" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580128005365" />
+    <state width="1877" height="555" key="GridCell.Tab.1.left" timestamp="1580128005365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="220" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" timestamp="1579330271479" />
+    <state width="1877" height="555" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580128005365" />
+    <state width="1877" height="555" key="GridCell.Tab.1.right" timestamp="1580128005365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1324" height="220" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" timestamp="1579330271480" />
+    <state width="1877" height="555" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580128005365" />
+    <state x="620" y="236" key="GuiDesigner.FormSource.Dialog" timestamp="1580132836338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="620" y="236" key="GuiDesigner.FormSource.Dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580132836338" />
+    <state x="266" y="107" width="830" height="521" key="IDE.errors.dialog" timestamp="1578129516763">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="266" y="107" width="830" height="521" key="IDE.errors.dialog/0.0.1366.735@0.0.1366.735" timestamp="1578129516763" />
+    <state x="461" y="162" width="1030" height="732" key="SettingsEditor" timestamp="1580404918854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="328" y="0" width="1030" height="732" key="SettingsEditor/0.0.1366.735@0.0.1366.735" timestamp="1578129450349" />
+    <state x="385" y="172" key="SettingsEditor/0.0.1664.1069@0.0.1664.1069" timestamp="1577267993136" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580404918854" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1575649703380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1575649703380" />
+    <state x="839" y="315" key="UIDesigner.ListEditorDialog" timestamp="1580388406309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="839" y="315" key="UIDesigner.ListEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580388406309" />
+    <state x="533" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1577237306311">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="533" y="360" key="com.intellij.ide.util.TipDialog/0.0.1664.1069@0.0.1664.1069" timestamp="1577237306311" />
+    <state x="564" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578409757123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578409757123" />
+    <state x="584" y="295" width="459" height="751" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1580133257946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="584" y="295" width="459" height="751" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580133257946" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1575834034391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1575834034391" />
+    <state x="690" y="276" width="540" height="496" key="extract.method.dialog" timestamp="1576948244335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="276" width="540" height="496" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576948244335" />
+    <state width="536" height="255" key="javadoc.popup.new" timestamp="1580235188978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="466" height="264" key="javadoc.popup.new/0.0.1366.735@0.0.1366.735" timestamp="1579339997701" />
+    <state width="465" height="399" key="javadoc.popup.new/0.0.1664.1069@0.0.1664.1069" timestamp="1577267642185" />
+    <state width="536" height="255" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1580235188978" />
+    <state x="342" y="140" key="new project wizard" timestamp="1578061161306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="296" y="144" key="new project wizard/0.0.1664.1069@0.0.1664.1069" timestamp="1577267396580" />
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578061161306" />
+    <state x="702" y="140" key="refactoring.ChangeSignatureDialog" timestamp="1579947657944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="140" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579947657944" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579964237990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579964237990" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580051983520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580051983520" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Progetto4_0$ManualClient.ic" NAME="ManualClient Coverage Results" MODIFIED="1580129053858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Progetto$AutoClient.ic" NAME="AutoClient Coverage Results" MODIFIED="1578051702196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

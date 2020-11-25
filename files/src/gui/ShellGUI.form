@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.ShellGUI">
+  <grid id="27dc6" binding="shellJPanel" layout-manager="GridLayoutManager" row-count="8" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1019" height="837"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b3dd0" binding="addFriendJPanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Aggiungi amico">
+          <font/>
+          <title-color color="-11908097"/>
+        </border>
+        <children>
+          <component id="4e32a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nome amico"/>
+            </properties>
+          </component>
+          <component id="f2d0d" class="javax.swing.JTextField" binding="addFriendJTextField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="8a385" class="javax.swing.JButton" binding="addFriendJButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Aggiungi"/>
+            </properties>
+          </component>
+          <hspacer id="b30cb">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="581e0" binding="welcomeJPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="50" left="50" bottom="50" right="50"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13092808"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e5978" class="javax.swing.JLabel" binding="manualJLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Noto Sans" size="28" style="1"/>
+              <foreground color="-1"/>
+              <text value="Ciao Federico, questa e' la tua shell"/>
+            </properties>
+          </component>
+          <component id="fd956" class="javax.swing.JLabel" binding="instructionsJLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-1"/>
+              <text value="&lt;html&gt;Puoi aggiungere/sfidare un amico inserido il suo username nell'apposito JTextField e premere il relativo JButton. &lt;BR&gt;&#10;Le JList 'Amici', 'Amici online' e 'Classifica' vengono aggiornati col click sul JButton 'Aggiorna'. &lt;BR&gt;&#10;La JList 'Richieste di sfida' viene tenuta aggiornata in tempo reale. &lt;BR&gt;&#10;Per accettare una sfida basta cliccare due volte sul nome del richiedente. &lt;BR&gt;&#10;Per sfidare un amico e' necessario che sia connesso. &lt;BR&gt;&#10;Have Fun! &lt;/html&gt;&quot;"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="a2eee" class="javax.swing.JLabel" binding="valuePointsJLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Punteggio"/>
+        </properties>
+      </component>
+      <component id="db250" class="javax.swing.JButton" binding="updateJButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Aggiorna"/>
+        </properties>
+      </component>
+      <vspacer id="2e265">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="41b9e">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="9e524" binding="sendMatchRequestsJPanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Sfida amico">
+          <title-color color="-15578693"/>
+        </border>
+        <children>
+          <component id="aec87" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Nome amico"/>
+            </properties>
+          </component>
+          <component id="e890c" class="javax.swing.JTextField" binding="matchJTextField">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <hspacer id="ace8d">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="f056c" class="javax.swing.JButton" binding="sendMatchJButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Sfida  "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="967f8">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="150"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Amici online">
+          <font/>
+          <title-color color="-15578693"/>
+        </border>
+        <children>
+          <grid id="d5367" binding="onlineFriendsJPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none">
+              <font/>
+              <title-color color="-15578693"/>
+            </border>
+            <children>
+              <component id="8a683" class="javax.swing.JList" binding="onlineFriendsJList">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <scrollpane id="24c3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="150"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Classifica">
+          <title-color color="-15578693"/>
+        </border>
+        <children>
+          <grid id="5c1a1" binding="rankingJPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none">
+              <title-color color="-15578693"/>
+            </border>
+            <children>
+              <component id="f7190" class="javax.swing.JList" binding="rankingJList">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <model/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <scrollpane id="34a7c">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="150"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Amici">
+          <title-color color="-15578693"/>
+        </border>
+        <children>
+          <grid id="a4d7e" binding="friendJPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none">
+              <font/>
+              <title-color color="-11908097"/>
+            </border>
+            <children>
+              <component id="f4fd1" class="javax.swing.JList" binding="friendsJList">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <model/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <scrollpane id="35ef4">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="150"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered" title="Richieste di sfida">
+          <title-color color="-15578693"/>
+        </border>
+        <children>
+          <grid id="c9925" binding="requestsJPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none">
+              <font/>
+              <title-color color="-15578693"/>
+            </border>
+            <children>
+              <component id="bb92a" class="javax.swing.JList" binding="matchRequestsJList">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <component id="2006" class="javax.swing.JButton" binding="exitJButton">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Esci"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
